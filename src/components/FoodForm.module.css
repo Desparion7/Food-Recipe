@@ -1,5 +1,5 @@
 .form {
-  min-width: 400px;
+  min-width: 300px;
   padding: 2rem;
   border-radius: 5px;
   background-color: white;
@@ -35,14 +35,23 @@
   width: 40px;
   text-align: center;
 }
-
+.form_fieldsBox2 select {
+  padding: 0;
+}
 .errorText {
   display: flex;
   align-items: center;
   font-size: 0.8rem;
+  margin-left: 0.3rem;
   color: var(--error-text);
 }
 .errorMessage {
   margin-top: 0.5rem;
   color: var(--error-text);
+}
+
+@media screen and (min-width: 600px) {
+  .form {
+    min-width: 400px;
+  }
 }
