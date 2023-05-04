@@ -33,3 +33,16 @@ body {
 main {
   flex-grow: 1;
 }
+button {
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border: none;
+  color: var(--text-color);
+  background-color: var(--main-color);
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+button:hover {
+  background-color: var(--button-bg-hover);
+}

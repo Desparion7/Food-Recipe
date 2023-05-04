@@ -1,0 +1,7 @@
+.recipe h3,
+.recipe p {
+  margin-bottom: 0.5rem;
+}
+.recipe span {
+  font-weight: bold;
+}
