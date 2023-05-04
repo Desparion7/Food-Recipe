@@ -26,8 +26,8 @@ To get started with this project, follow the steps below:
 # Project Structure
  
 The project structure is organized as follows:  
-- public: This directory contains the publicly accessible files such as images, and other assets.  
-- src: This directory contains the source code of the project.  
+     public: This directory contains the publicly accessible files such as images, and other assets.  
+     src: This directory contains the source code of the project.  
 api: This directory contains a file to communicate with API.  
 components: This directory houses the reusable components used in the application.  
 interface: This directory holds interfaces.  
