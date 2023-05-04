@@ -26,12 +26,12 @@ To get started with this project, follow the steps below:
 # Project Structure
  
 The project structure is organized as follows:  
-     - public: This directory contains the publicly accessible files such as images, and other assets.  
-     - src: This directory contains the source code of the project.  
-     - api: This directory contains a file to communicate with API.  
-     - components: This directory houses the reusable components used in the application.  
-     - interface: This directory holds interfaces.  
-     - screens: This directory holds main page.  
-     - ui: This directory holds ui.  
+- public: This directory contains the publicly accessible files such as images, and other assets.  
+- src: This directory contains the source code of the project.  
+- api: This directory contains a file to communicate with API.  
+- components: This directory houses the reusable components used in the application.  
+- interface: This directory holds interfaces.  
+- screens: This directory holds main page.  
+- ui: This directory holds ui.  
  
 In the project, ESLint and Prettier have been applied for code formatting and linting.
