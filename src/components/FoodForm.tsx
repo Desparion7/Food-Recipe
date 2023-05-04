@@ -10,7 +10,7 @@ import Confirmation from './Confirmation';
 
 const initialValues: FormValues = {
   name: '',
-  preparation_time: '',
+  preparation_time: '00:00:00',
   type: '',
   no_of_slices: 1,
   diameter: 30,
@@ -154,6 +154,7 @@ const FoodForm = () => {
                 step="1"
                 id="preparation_time"
                 name="preparation_time"
+                min="00:00:00"
               />
               <ErrorMessage
                 className={styles.errorText}
