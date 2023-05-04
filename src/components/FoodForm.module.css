@@ -55,3 +55,7 @@
   font-size: 0.8rem;
   color: var(--error-text);
 }
+.errorMessage {
+  margin-top: 0.5rem;
+  color: var(--error-text);
+}
