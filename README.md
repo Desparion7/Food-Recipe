@@ -10,17 +10,17 @@ To get started with this project, follow the steps below:
 1. Make sure you have Node.js installed on your machine. You can download it from nodejs.org.
 2. Clone the project repository to your local machine:
 
- > git clone <repository-url>
- 
+> git clone <repository-url>
+
 3. Navigate to the project directory
 4. Install the project dependencies:
- 
+
  > npm install
- 
+
 5. Start the development server:
- 
+
  > npm run dev
- 
+
 6. Open your web browser and visit the provided URL. You should see the application running on  http://localhost:5173/
 
 # Project Structure
